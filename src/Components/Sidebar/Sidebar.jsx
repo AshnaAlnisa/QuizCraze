@@ -68,13 +68,13 @@ const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <Link href="#" className='sidebar-link'>
+            <Link to="/results" className='sidebar-link'>
               <i className="bx bxs-shopping-bag-alt" />
               <span className="text">My Results</span>
             </Link>
           </li>
           <li>
-            <Link href="#" className='sidebar-link'>
+            <Link to="/cards" className='sidebar-link'>
               <i className="bx bxs-doughnut-chart" />
               <span className="text">All Quizzes</span>
             </Link>
@@ -86,7 +86,7 @@ const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <Link href="#" className='sidebar-link'>
+            <Link to="/scoreboard" className='sidebar-link'>
               <i className="bx bxs-group" />
               <span className="text">Scoreboard</span>
             </Link>

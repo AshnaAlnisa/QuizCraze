@@ -56,6 +56,10 @@ const router = createBrowserRouter([
     path: "/scoreboard",
     element: <Scoreboard />,
   },
+  {
+    path: "/quiz",
+    element: <Quiz1 />,
+  },
   
 
 ]);

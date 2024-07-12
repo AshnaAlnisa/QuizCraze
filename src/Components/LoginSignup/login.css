@@ -17,8 +17,8 @@
     justify-content: center;
     overflow: hidden;
     position: relative;
-    padding-right: 30%;
-    padding-bottom: 8%;
+    /* padding-right: 30%;
+    padding-bottom: 8%; */
 }
 
 .box{
@@ -64,7 +64,7 @@ input{
     padding: 0 8px;
     border-radius: 5px;
 }
-input::placeholder{
+/* input::placeholder{
     transition: .6s;
 }
 
@@ -72,7 +72,7 @@ input::placeholder{
     position: absolute;
     top: -12px;
     opacity: 0;
-}
+} */
 
 label{
     position: absolute;

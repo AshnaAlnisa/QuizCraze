@@ -19,6 +19,7 @@ const Message = () => {
                         type="text"
                         className="fname"
                         placeholder="First Name"
+                        required
                       />
                     </div>
                     <div className="form-group">
@@ -33,6 +34,7 @@ const Message = () => {
                         type="email"
                         className="email"
                         placeholder="Mail"
+                        required
                       />
                     </div>
                     <div className="form-group">
@@ -40,6 +42,7 @@ const Message = () => {
                         type="number"
                         className="phone"
                         placeholder="Phone"
+                        required
                       />
                     </div>
                     <div className="form-group">
@@ -48,6 +51,7 @@ const Message = () => {
                         id
                         placeholder="Write your message"
                         defaultValue={""}
+                        required
                       />
                     </div>
                   </div>
